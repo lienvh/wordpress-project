@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WordPress]" verbose="0">
+  <listeners>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="admin.posts.PostsListTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Post_List_01_Paging" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- admin.posts.PostsListTest -->
+    </classes>
+  </test> <!-- Run on firefox(failed) -->
+</suite> <!-- Failed suite [WordPress] -->

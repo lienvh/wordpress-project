@@ -1,4 +1,5 @@
+admin/posts/PostsListTest.class
 admin/Template.class
 admin/LoginTest.class
 user/Template.class
-admin/Post01FlowCreateEditDeleteTest.class
+admin/posts/FlowCreateEditDeleteTest.class

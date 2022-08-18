@@ -1,8 +1,8 @@
 package user;
 
-import actions.commons.BaseTest;
-import actions.environmentConfig.Environment;
-import actions.reportConfig.ExtentTestManager;
+import commons.BaseTest;
+import environmentConfig.Environment;
+import reportConfig.ExtentTestManager;
 import com.aventstack.extentreports.Status;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;

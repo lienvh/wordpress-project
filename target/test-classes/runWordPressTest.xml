@@ -3,7 +3,7 @@
     <listeners>
         <!-- <listener class-name="commons.MethodListener" /> -->
         <!--<listener class-name="reportConfig.ReportNGListener" /> -->
-        <listener class-name="actions.reportConfig.ExtentTestListener"/>
+        <listener class-name="reportConfig.ExtentTestListener"/>
         <!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
         <!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
     </listeners>
@@ -11,7 +11,7 @@
     <test name="Run on firefox">
         <classes>
             <parameter name="browser" value="firefox"/>
-            <class name="admin.Post01FlowCreateEditDeleteTest"/>
+            <class name="admin.posts.PostsListTest"/>
         </classes>
     </test>
 

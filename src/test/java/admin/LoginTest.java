@@ -1,11 +1,11 @@
 package admin;
 
-import actions.commons.BaseTest;
-import actions.commons.PageGeneratorManager;
-import actions.environmentConfig.Environment;
-import actions.pageObjects.adminPageObjects.DashboardPageObject;
-import actions.pageObjects.adminPageObjects.LoginPageObject;
-import actions.reportConfig.ExtentTestManager;
+import commons.BaseTest;
+import commons.PageGeneratorManager;
+import environmentConfig.Environment;
+import pageObjects.adminPageObjects.DashboardPageObject;
+import pageObjects.adminPageObjects.LoginPageObject;
+import reportConfig.ExtentTestManager;
 import com.aventstack.extentreports.Status;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
